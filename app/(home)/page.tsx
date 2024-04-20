@@ -13,7 +13,7 @@ export default function Home() {
         />
         <h1 className="text-6xl font-light	 mb-4">Francisco Quintero</h1>
         <h2 className="text-2xl font-extralight">
-          Being Built in Next, Typescript and Tailwind
+          Being built in Next, Typescript and Tailwind
         </h2>
       </article>
     </main>
