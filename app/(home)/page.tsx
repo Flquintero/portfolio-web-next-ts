@@ -7,7 +7,7 @@ export default function Home() {
       <article className="text-center">
         <Image
           src="/profile-picture.png"
-          className="mx-auto mb-4 rounded-full border-2 border-slate-950"
+          className="mx-auto mb-4 rounded-full border border-slate-950 shadow"
           width="250"
           height="250"
           alt="Fancisco's Image"
