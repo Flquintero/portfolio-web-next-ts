@@ -3,18 +3,18 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="h-screen w-screen flex flex-col justify-center items-center">
+    <main className="h-screen w-screen p-5 flex flex-col justify-center items-center">
       <article className="text-center">
         <Image
           src="/profile-picture.png"
-          className="rounded-full mx-auto mb-4"
+          className="mx-auto mb-4 rounded-full border-2 border-slate-950"
           width="250"
           height="250"
           alt="Fancisco's Image"
         />
         <h1 className="text-6xl font-light	 mb-4">Francisco Quintero Abbo</h1>
         <h2 className="text-2xl font-extralight">
-          Being built in Next, TypeScript and Tailwind
+          Being built in React+Next, TypeScript and Tailwind
         </h2>
         <div className="w-40 flex justify-evenly mx-auto mt-4">
           <Link href="https://github.com/Flquintero" target="_blank">
