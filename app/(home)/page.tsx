@@ -3,11 +3,11 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="h-screen w-screen p-5 flex flex-col justify-center items-center">
+    <main className="h-screen w-screen px-5 sm:p-0 flex flex-col justify-center items-center">
       <article className="text-center">
         <Image
           src="/profile-picture.png"
-          className="mx-auto mb-4 rounded-full border border-slate-950 shadow"
+          className="mx-auto mb-4 rounded-full border border-slate-50 shadow"
           width="250"
           height="250"
           alt="Fancisco's Image"
