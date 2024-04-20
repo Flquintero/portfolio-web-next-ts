@@ -6,7 +6,8 @@ const oswald = Oswald({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Francisco Quintero Abbo',
-  description: 'Software Engineer | Product Management | Tech Startups',
+  description:
+    'Software Engineer with 8+ of experience building products in JavaScript and TypeScript in various industries',
 };
 
 export default function RootLayout({
