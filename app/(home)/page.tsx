@@ -34,12 +34,10 @@ export default function Home() {
             />
           </Link>
         </div>
-      </article>
-      <footer className="mt-auto mb-0 mx-auto">
-        <p className="text-1xl font-extralight text-center">
+        <p className="text-1xl font-extralight text-center mt-5">
           Site being built in React+Next, TypeScript and Tailwind
         </p>
-      </footer>
+      </article>
     </main>
   );
 }
