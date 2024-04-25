@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function HomeTitle() {
   return (
-    <div className="p-6 flex flex-col justify-start md:justify-center items-center text-center">
+    <div className="px-6 pt-6 pb-4 flex flex-col justify-start md:justify-center items-center text-center">
       <article>
         <Image
           src="/profile-picture.png"
