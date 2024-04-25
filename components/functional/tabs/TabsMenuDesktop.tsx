@@ -1,17 +1,11 @@
 'use client';
-
-import { useCallback, useState } from 'react';
-import TabsMenuItem from './TabsMenuItem';
+import TabsMenuItemDesktop from './TabsMenuItemDesktop';
+import type { TabItem } from '@/types/components/tabs';
 
 type TabsMenuDesktop = {
   tabOptions: TabItem[];
   currentTabItemIndex: number;
   onClick: (newIndex: number) => void;
-};
-
-type TabItem = {
-  tabText: string;
-  renderComponent?: JSX.Element;
 };
 
 const TabsMenuDesktop = ({
@@ -22,7 +16,7 @@ const TabsMenuDesktop = ({
   return (
     <div className="w-full flex justify-between text-center">
       {tabOptions.map((tabItem: TabItem, index: number) => (
-        <TabsMenuItem
+        <TabsMenuItemDesktop
           key={tabItem.tabText}
           tabText={tabItem.tabText}
           onClick={onClick}

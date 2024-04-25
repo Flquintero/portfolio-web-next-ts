@@ -17,20 +17,20 @@ export default function HomeTitle() {
         <div className="w-24 flex justify-evenly mx-auto mt-4">
           <Link href="https://github.com/Flquintero" target="_blank">
             <Image
-              src="/github.svg"
+              src="icons/social-media/github.svg"
               className="rounded-full"
               width="35"
               height="35"
-              alt="Fancisco's Image"
+              alt="Github Icon"
             />
           </Link>
           <Link href="https://www.linkedin.com/in/fquinteroa/" target="_blank">
             <Image
-              src="/linkedin.svg"
+              src="icons/social-media/linkedin.svg"
               className="rounded-full"
               width="35"
               height="35"
-              alt="Fancisco's Image"
+              alt="Linkedin Icon"
             />
           </Link>
         </div>
