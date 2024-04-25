@@ -19,7 +19,7 @@ const TabsItem = ({
       className={`${isCurrentTab ? 'opacity-100' : 'opacity-25'}`}
       onClick={() => onClick(tabIndex)}
     >
-      {tabText}
+      <span className="text-lg">{tabText}</span>
     </button>
   );
 };

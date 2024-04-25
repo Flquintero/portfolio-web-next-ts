@@ -1,4 +1,4 @@
-import TabsMenu from '@/components/functional/tabs-menu/TabsMenu';
+import Tabs from '@/components/functional/tabs/Tabs';
 
 export default function HomeContent() {
   const menuOptions = [
@@ -10,7 +10,7 @@ export default function HomeContent() {
   ];
   return (
     <section className="w-full lg:max-w-2xl mx-auto">
-      <TabsMenu tabOptions={menuOptions} />
+      <Tabs tabOptions={menuOptions} />
     </section>
   );
 }

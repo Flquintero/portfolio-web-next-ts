@@ -1,10 +1,12 @@
 'use client';
 
 import { useCallback, useState } from 'react';
-import TabsItem from './TabsItem';
+import TabsMenuItem from './TabsMenuItem';
 
-type TabMenuProps = {
+type TabsMenuDesktop = {
   tabOptions: TabItem[];
+  currentTabItemIndex: number;
+  onClick: (newIndex: number) => void;
 };
 
 type TabItem = {
@@ -12,18 +14,18 @@ type TabItem = {
   renderComponent?: JSX.Element;
 };
 
-const TabsMenu = ({ tabOptions }: TabMenuProps) => {
-  const [currentTabItemIndex, setCurrentTabItemIndex] = useState(0);
-  const handleClick = useCallback((newIndex: number): void => {
-    setCurrentTabItemIndex(newIndex);
-  }, []);
+const TabsMenuDesktop = ({
+  tabOptions,
+  currentTabItemIndex,
+  onClick,
+}: TabsMenuDesktop) => {
   return (
     <div className="w-full flex justify-between text-center">
       {tabOptions.map((tabItem: TabItem, index: number) => (
-        <TabsItem
+        <TabsMenuItem
           key={tabItem.tabText}
           tabText={tabItem.tabText}
-          onClick={handleClick}
+          onClick={onClick}
           tabIndex={index}
           currentTabIndex={currentTabItemIndex}
         />
@@ -32,4 +34,4 @@ const TabsMenu = ({ tabOptions }: TabMenuProps) => {
   );
 };
 
-export default TabsMenu;
+export default TabsMenuDesktop;
