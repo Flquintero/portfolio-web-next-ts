@@ -16,7 +16,7 @@ const TabsItem = ({
   const isCurrentTab = currentTabIndex === tabIndex;
   return (
     <button
-      className={`${isCurrentTab ? 'opacity-100' : 'opacity-25'}`}
+      className={`mx-1 lg:mx-0 ${isCurrentTab ? 'opacity-100' : 'opacity-25'}`}
       onClick={() => onClick(tabIndex)}
     >
       <h3 className="text-lg">{tabText}</h3>

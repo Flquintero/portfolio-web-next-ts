@@ -29,7 +29,7 @@ const HomeContent = () => {
     },
   ];
   return (
-    <section className="w-full lg:max-w-2xl mx-auto">
+    <section className="w-full lg:max-w-2xl mx-auto px-8">
       <Tabs tabOptions={menuOptions} />
     </section>
   );
