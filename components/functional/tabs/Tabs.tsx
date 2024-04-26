@@ -20,22 +20,22 @@ const Tabs = ({ tabOptions }: TabProps) => {
   if (device === 'Mobile')
     return (
       <div>
-        {/* <TabsMenuMobile
+        <TabsMenuMobile
           tabOptions={tabOptions}
           currentTabItemIndex={currentTabItemIndex}
           onClick={handleClick}
-        /> */}
+        />
         {currentTabContent}
       </div>
     );
   if (device === 'Desktop' || device === 'Tablet')
     return (
       <div>
-        {/* <TabsMenuDesktop
+        <TabsMenuDesktop
           tabOptions={tabOptions}
           currentTabItemIndex={currentTabItemIndex}
           onClick={handleClick}
-        /> */}
+        />
         {currentTabContent}
       </div>
     );
