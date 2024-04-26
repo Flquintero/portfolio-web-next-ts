@@ -16,6 +16,7 @@ const Tabs = ({ tabOptions }: TabProps) => {
   const handleClick = useCallback((newIndex: number): void => {
     setCurrentTabItemIndex(newIndex);
   }, []);
+  const currentTabContent = tabOptions[currentTabItemIndex].renderComponent;
   if (device === 'Mobile')
     return (
       <div>
@@ -24,7 +25,7 @@ const Tabs = ({ tabOptions }: TabProps) => {
           currentTabItemIndex={currentTabItemIndex}
           onClick={handleClick}
         />
-        {tabOptions[currentTabItemIndex].renderComponent}
+        {currentTabContent}
       </div>
     );
   if (device === 'Desktop' || device === 'Tablet')
@@ -35,7 +36,7 @@ const Tabs = ({ tabOptions }: TabProps) => {
           currentTabItemIndex={currentTabItemIndex}
           onClick={handleClick}
         />
-        {tabOptions[currentTabItemIndex].renderComponent}
+        {currentTabContent}
       </div>
     );
 };

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const HomeTitle = () => {
   return (
-    <div className="px-6 pt-6 pb-4 flex flex-col justify-start md:justify-center items-center text-center">
+    <div className="px-6 pt-6 pb-3 flex flex-col justify-start md:justify-center items-center text-center">
       <article>
         <Image
           src="/profile-picture.png"
@@ -34,6 +34,8 @@ const HomeTitle = () => {
             />
           </Link>
         </div>
+        {/* To Do: Next iteration */}
+        {/* <button className="my-4">Download Resume</button> */}
       </article>
     </div>
   );
