@@ -1,6 +1,6 @@
 'use client';
 import TabsMenuItemDesktop from './TabsMenuItemDesktop';
-import type { TabItem } from '@/types/components/tabs';
+import type { TabItem } from '@/types/components/Tabs';
 
 type TabsMenuDesktop = {
   tabOptions: TabItem[];

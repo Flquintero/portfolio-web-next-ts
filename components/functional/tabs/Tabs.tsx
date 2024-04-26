@@ -4,7 +4,7 @@ import { useCallback, useState } from 'react';
 import useDeviceDetection from '@/hooks/useDeviceDetection';
 import TabsMenuDesktop from './TabsMenuDesktop';
 import TabsMenuMobile from './TabsMenuMobile';
-import type { TabItem } from '@/types/components/tabs';
+import type { TabItem } from '@/types/components/Tabs';
 
 type TabProps = {
   tabOptions: TabItem[];
@@ -18,19 +18,25 @@ const Tabs = ({ tabOptions }: TabProps) => {
   }, []);
   if (device === 'Mobile')
     return (
-      <TabsMenuMobile
-        tabOptions={tabOptions}
-        currentTabItemIndex={currentTabItemIndex}
-        onClick={handleClick}
-      />
+      <div>
+        <TabsMenuMobile
+          tabOptions={tabOptions}
+          currentTabItemIndex={currentTabItemIndex}
+          onClick={handleClick}
+        />
+        <div>{tabOptions[currentTabItemIndex].renderComponent}</div>
+      </div>
     );
   if (device === 'Desktop' || device === 'Tablet')
     return (
-      <TabsMenuDesktop
-        tabOptions={tabOptions}
-        currentTabItemIndex={currentTabItemIndex}
-        onClick={handleClick}
-      />
+      <div>
+        <TabsMenuDesktop
+          tabOptions={tabOptions}
+          currentTabItemIndex={currentTabItemIndex}
+          onClick={handleClick}
+        />
+        <div>{tabOptions[currentTabItemIndex].renderComponent}</div>
+      </div>
     );
 };
 

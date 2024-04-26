@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import { TabItem } from '@/types/components/tabs';
+import { TabItem } from '@/types/components/Tabs';
 
 type TabsMenuMobile = {
   tabOptions: TabItem[];

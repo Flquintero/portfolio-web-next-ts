@@ -1,12 +1,32 @@
 import Tabs from '@/components/functional/tabs/Tabs';
+import HomeContentExperience from './home-content-sections/HomeContentExperience';
+import HomeContentProjects from './home-content-sections/HomeContentProjects';
+import HomeContentConsulting from './home-content-sections/HomeContentConsulting';
+import HomeContentCertifications from './home-content-sections/HomeContentCertifications';
+import HomeContentEducation from './home-content-sections/HomeContentEducation';
 
 export default function HomeContent() {
   const menuOptions = [
-    { tabText: 'Professional Experience' },
-    { tabText: 'Side Projects' },
-    { tabText: 'Consulting / Mentorship' },
-    { tabText: 'Certifications' },
-    { tabText: 'Education' },
+    {
+      tabText: 'Professional Experience',
+      renderComponent: <HomeContentExperience />,
+    },
+    {
+      tabText: 'Side Projects',
+      renderComponent: <HomeContentProjects />,
+    },
+    {
+      tabText: 'Consulting / Mentorship',
+      renderComponent: <HomeContentConsulting />,
+    },
+    {
+      tabText: 'Certifications',
+      renderComponent: <HomeContentCertifications />,
+    },
+    {
+      tabText: 'Education',
+      renderComponent: <HomeContentEducation />,
+    },
   ];
   return (
     <section className="w-full lg:max-w-2xl mx-auto">
