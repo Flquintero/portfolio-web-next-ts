@@ -24,7 +24,7 @@ const Tabs = ({ tabOptions }: TabProps) => {
           currentTabItemIndex={currentTabItemIndex}
           onClick={handleClick}
         />
-        <div>{tabOptions[currentTabItemIndex].renderComponent}</div>
+        {tabOptions[currentTabItemIndex].renderComponent}
       </div>
     );
   if (device === 'Desktop' || device === 'Tablet')
@@ -35,7 +35,7 @@ const Tabs = ({ tabOptions }: TabProps) => {
           currentTabItemIndex={currentTabItemIndex}
           onClick={handleClick}
         />
-        <div>{tabOptions[currentTabItemIndex].renderComponent}</div>
+        {tabOptions[currentTabItemIndex].renderComponent}
       </div>
     );
 };
