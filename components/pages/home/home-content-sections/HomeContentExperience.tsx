@@ -32,7 +32,7 @@ const HomeContentExperience = () => {
       title: 'CO-FOUNDER & FULL STACK DEVELOPER',
       company: 'Coach HQ',
       date: 'Jul 2016 - Aug 2018',
-      logo: 'repzio-logo.jpeg',
+      logo: 'coachhq-logo.jpeg',
     },
     {
       title: 'FULL STACK DEVELOPER',
