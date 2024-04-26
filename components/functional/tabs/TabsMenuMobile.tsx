@@ -26,7 +26,7 @@ const TabsMenuMobile = ({
         onClick={() => (isFirstIndex ? null : onClick(currentTabItemIndex - 1))}
       />
 
-      <span className="text-xl">{tabOptions[currentTabItemIndex].tabText}</span>
+      <h3 className="text-xl">{tabOptions[currentTabItemIndex].tabText}</h3>
 
       <Image
         className={`${isLastIndex ? 'opacity-25' : 'opacity-100'}`}

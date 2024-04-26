@@ -5,7 +5,7 @@ import HomeContentConsulting from './home-content-sections/HomeContentConsulting
 import HomeContentCertifications from './home-content-sections/HomeContentCertifications';
 import HomeContentEducation from './home-content-sections/HomeContentEducation';
 
-export default function HomeContent() {
+const HomeContent = () => {
   const menuOptions = [
     {
       tabText: 'Professional Experience',
@@ -33,4 +33,6 @@ export default function HomeContent() {
       <Tabs tabOptions={menuOptions} />
     </section>
   );
-}
+};
+
+export default HomeContent;

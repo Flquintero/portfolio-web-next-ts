@@ -1,3 +1,5 @@
-export default function HomeContentEducation() {
+const HomeContentEducation = () => {
   return <section>Education</section>;
-}
+};
+
+export default HomeContentEducation;

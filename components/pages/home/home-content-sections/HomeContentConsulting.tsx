@@ -1,3 +1,4 @@
-export default function HomeContentConsulting() {
+const HomeContentConsulting = () => {
   return <section>Consulting</section>;
-}
+};
+export default HomeContentConsulting;
