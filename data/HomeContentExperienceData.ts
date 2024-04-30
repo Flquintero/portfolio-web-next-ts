@@ -1,6 +1,6 @@
-import type { HomeContentExperience } from '@/types/components/HomeContentListItem';
+import type { IHomeContentListItem } from '@/types/components/HomeContentListItem';
 
-export const experienceItems: HomeContentExperience[] = [
+export const experienceItems: IHomeContentListItem[] = [
   {
     title: 'SENIOR FRONTEND DEVELOPER',
     company: 'Sion',
@@ -51,12 +51,7 @@ export const experienceItems: HomeContentExperience[] = [
   },
 ];
 export const experienceText = `My tech experience started 12 years ago when a friend contacted me to be
-  the business side of a startup we eventually founded called NightPro.
-  That started a journey that taught me how to talk to customers, learn
-  their problems and turn them into a product that was used by leading
-  nightclubs around the world. But most importantly it led me to become a
-  software engineer. Since then I have had the fortune to work for
-  great companies. They have allowed me to expand on my cross functional
-  experience and knowledge related to different roles of a scrum team.
-  Learn the intricacies of managing teams and deepen my knowledge of
-  building complex applications in Javascript frameworks.`;
+  the business side of a startup. Wearing many hats as a founder I learned almost every aspect of product development to the point that I become a software engineer.
+  Throughout my career I have been able to me expand on my cross functional
+  experience and become more knowleable in agile methodologies as well as the intricacies of managing teams. But more importantly, in each role, I have been able to deepen my knowledge of
+  building complex applications with Javascript frameworks.`;
