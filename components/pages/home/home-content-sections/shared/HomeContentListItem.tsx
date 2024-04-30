@@ -11,7 +11,7 @@ const HomeContentListItem = ({ listItem }: HomeContentListItemProps) => {
     `/experience-logos/${logoFile}`;
   return (
     <section className="w-full flex border py-3 mb-5 shadow-sm rounded-lg">
-      <div className="w-20 flex justify-center items-center">
+      <div className="min-w-20 flex justify-center items-center">
         <Image
           src={renderLogo(listItem.logo)}
           className="rounded-full"
@@ -20,7 +20,7 @@ const HomeContentListItem = ({ listItem }: HomeContentListItemProps) => {
           alt="Linkedin Icon"
         />
       </div>
-      <div className="w-4/6 flex flex-col justify-center md:justify-start md:flex-row">
+      <div className="flex grow flex-col justify-center md:justify-start md:flex-row">
         <div>
           <div className="text-xs md:text-sm">{listItem.title}</div>
           <div className="text-xs md:text-sm font-light">
@@ -28,7 +28,7 @@ const HomeContentListItem = ({ listItem }: HomeContentListItemProps) => {
           </div>
         </div>
       </div>
-      <div className="w-1/6 flex justify-center items-center mx-5 text-xs font-light">
+      <div className="min-w-24 flex justify-center items-center mx-5 text-xs font-light">
         <span>{listItem.date}</span>
       </div>
     </section>
