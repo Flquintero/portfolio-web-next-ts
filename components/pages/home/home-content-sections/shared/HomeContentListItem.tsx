@@ -1,11 +1,10 @@
 import Image from 'next/image';
-import type { HomeContentExperience } from '@/types/components/HomeContentListItem';
+import type { IHomeContentListItem } from '@/types/components/HomeContentListItem';
 
 type HomeContentListItemProps = {
-  listItem: HomeContentExperience; // To Do: add the different types of list items;
+  listItem: IHomeContentListItem;
 };
 
-// TO do: figure out typing to get all possible props here
 const HomeContentListItem = ({ listItem }: HomeContentListItemProps) => {
   const renderLogo = (logoFile: string): string =>
     `/experience-logos/${logoFile}`;
