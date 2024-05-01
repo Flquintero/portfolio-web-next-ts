@@ -1,11 +1,11 @@
-import HomeTitle from '@/components/pages/resume/HomeTitle';
-import HomeContent from '@/components/pages/resume/HomeContent';
+import ResumeTitle from '@/components/pages/resume/ResumeTitle';
+import ResumeContent from '@/components/pages/resume/ResumeContent';
 
 export default function Home() {
   return (
     <main>
-      <HomeTitle />
-      <HomeContent />
+      <ResumeTitle />
+      <ResumeContent />
     </main>
   );
 }

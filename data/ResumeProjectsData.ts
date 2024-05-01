@@ -4,21 +4,25 @@ export const projectsItems: IResumeListItem[] = [
   {
     title: 'My Portfolio Site',
     subtitle: 'FranciscoQuinteroAbbo.com',
+    date: '2024 - Present',
     logo: 'abbo-logo.png', // To do: create S3 bucket and host these
   },
   {
     title: 'Website to ask Expert Social Media Accounts a Question',
     subtitle: 'SocialWisdom.co',
+    date: '2023 - Present',
     logo: 'social-wisdom-logo.png',
   },
   {
     title: 'Web app to build Ad Campaigns for Social Media Posts',
     subtitle: 'Citch: Helping SMB`s run ad campaings',
+    date: '2022 - 2023',
     logo: 'citch-logo.png',
   },
   {
     title: 'API to interact with Facebook Marketing API',
     subtitle: 'Citch: Helping SMB`s run ad campaings',
+    date: '2022 - 2023',
     logo: 'citch-logo.png',
   },
 ];
