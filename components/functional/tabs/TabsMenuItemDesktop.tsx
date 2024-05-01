@@ -14,9 +14,12 @@ const TabsItem = ({
   onClick,
 }: TabsItemProps) => {
   const isCurrentTab = currentTabIndex === tabIndex;
+  const dynamicTabStyling = isCurrentTab
+    ? 'border-b border-neutral-800 opacity-100'
+    : 'opacity-20';
   return (
     <button
-      className={`mx-1 lg:mx-0 ${isCurrentTab ? 'opacity-100' : 'opacity-25'}`}
+      className={`mx-1 lg:mx-0 ${dynamicTabStyling}`}
       onClick={() => onClick(tabIndex)}
     >
       <h3 className="text-md lg:text-lg">{tabText}</h3>

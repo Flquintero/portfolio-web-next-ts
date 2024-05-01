@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-const HomeTitle = () => {
+const ResumeTitle = () => {
   return (
     <div className="px-6 pt-6 pb-3 flex flex-col justify-start md:justify-center items-center text-center">
       <article>
@@ -40,4 +40,4 @@ const HomeTitle = () => {
     </div>
   );
 };
-export default HomeTitle;
+export default ResumeTitle;
