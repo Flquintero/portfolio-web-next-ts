@@ -1,51 +1,51 @@
-import type { IHomeContentListItem } from '@/types/components/HomeContentListItem';
+import type { IResumeListItem } from '@/types/components/ResumeListItem';
 
-export const experienceItems: IHomeContentListItem[] = [
+export const experienceItems: IResumeListItem[] = [
   {
     title: 'SENIOR FRONTEND DEVELOPER',
-    company: 'Sion',
+    subtitle: 'Sion',
     date: 'Jan 2023 - Present',
     logo: 'sion-logo.jpeg', // To do: create S3 bucket and host these
   },
   {
     title: 'SENIOR FRONTEND DEVELOPER',
-    company: 'Andmore',
+    subtitle: 'Andmore',
     date: 'Jan 2020 - Nov 2022',
     logo: 'andmore-logo.jpeg',
   },
   {
     title: 'FRONTEND DEVELOPER',
-    company: 'Repzio',
+    subtitle: 'Repzio',
     date: 'Oct 2018 - Jan 2020',
     logo: 'repzio-logo.jpeg',
   },
   {
     title: 'WEB ENGINEER',
-    company: 'MotionPoint',
+    subtitle: 'MotionPoint',
     date: 'Aug 2018 - Oct 2018',
     logo: 'motionpoint-logo.jpeg',
   },
   {
     title: 'CO-FOUNDER & FULL STACK DEVELOPER',
-    company: 'Coach HQ',
+    subtitle: 'Coach HQ',
     date: 'Jul 2016 - Aug 2018',
     logo: 'coachhq-logo.jpeg',
   },
   {
     title: 'FULL STACK DEVELOPER',
-    company: 'Tablelist',
+    subtitle: 'Tablelist',
     date: 'Dec 2015 - Jul 2016',
     logo: 'tablelist-logo.jpeg',
   },
   {
     title: 'CUSTOMER SUCCESS MANAGER',
-    company: 'Tablelist',
+    subtitle: 'Tablelist',
     date: 'Jul 2015 - Dec 2015',
     logo: 'tablelist-logo.jpeg',
   },
   {
     title: 'CO-FOUNDER & CUSTOMER SUCCESS MANAGER',
-    company: 'NightPro',
+    subtitle: 'NightPro',
     date: 'Feb 2012 - Jul 2015',
     logo: 'tablelistpro-logo.jpeg',
   },

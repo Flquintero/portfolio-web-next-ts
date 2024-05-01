@@ -1,7 +1,7 @@
 import Tabs from '@/components/functional/tabs/Tabs';
-import { menuOptions } from '@/data/HomeContentSectionsMenuData';
+import { menuOptions } from '@/data/ResumeSectionsMenuData';
 
-const HomeContent = () => {
+const ResumeContent = () => {
   return (
     <section className="w-full lg:max-w-2xl mx-auto px-2 md:px-8">
       <Tabs tabOptions={menuOptions} />
@@ -9,4 +9,4 @@ const HomeContent = () => {
   );
 };
 
-export default HomeContent;
+export default ResumeContent;

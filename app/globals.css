@@ -5,10 +5,10 @@
 
 
 @layer components {
-    .home-content-section-wrapper {
+    .resume-section-wrapper {
         @apply px-7 md:p-0 mt-4;
     };
-    .home-content-section-text {
+    .resume-section-text {
         @apply mb-6 text-base font-extralight text-justify;
     }
 }

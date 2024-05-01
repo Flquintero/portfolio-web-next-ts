@@ -1,13 +1,12 @@
 import Image from 'next/image';
-import type { IHomeContentListItem } from '@/types/components/HomeContentListItem';
+import type { IResumeListItem } from '@/types/components/ResumeListItem';
 
-type HomeContentListItemProps = {
-  listItem: IHomeContentListItem;
+type ResumeListItemProps = {
+  listItem: IResumeListItem;
 };
 
-const HomeContentListItem = ({ listItem }: HomeContentListItemProps) => {
-  const renderLogo = (logoFile: string): string =>
-    `/experience-logos/${logoFile}`;
+const ResumeListItem = ({ listItem }: ResumeListItemProps) => {
+  const renderLogo = (logoFile: string): string => `/resume-logos/${logoFile}`;
   return (
     <section className="w-full flex border py-3 mb-5 shadow-sm rounded-lg">
       <div className="min-w-20 flex justify-center items-center">
@@ -16,14 +15,14 @@ const HomeContentListItem = ({ listItem }: HomeContentListItemProps) => {
           className="rounded-full"
           width="40"
           height="40"
-          alt="Linkedin Icon"
+          alt={`${listItem.title} logo`}
         />
       </div>
       <div className="flex grow flex-col justify-center md:justify-start md:flex-row">
         <div>
           <div className="text-xs md:text-sm">{listItem.title}</div>
           <div className="text-xs md:text-sm font-light">
-            {listItem.company}
+            {listItem.subtitle}
           </div>
         </div>
       </div>
@@ -33,4 +32,4 @@ const HomeContentListItem = ({ listItem }: HomeContentListItemProps) => {
     </section>
   );
 };
-export default HomeContentListItem;
+export default ResumeListItem;
