@@ -5,7 +5,7 @@ export const projectsItems: IResumeListItem[] = [
     title: 'My Portfolio Site',
     subtitle: 'FranciscoQuinteroAbbo.com',
     date: '2024 - Present',
-    logo: 'abbo-logo.png', // To do: create S3 bucket and host these
+    logo: 'profile-logo.png', // To do: create S3 bucket and host these
   },
   {
     title: 'Website to ask Expert Social Media Accounts a Question',

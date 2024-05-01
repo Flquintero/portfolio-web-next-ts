@@ -12,7 +12,7 @@ const ResumeListItem = ({ listItem }: ResumeListItemProps) => {
       <div className="min-w-20 flex justify-center items-center">
         <Image
           src={renderLogo(listItem.logo)}
-          className="rounded-full"
+          className="rounded-md"
           width="40"
           height="40"
           alt={`${listItem.title} logo`}
