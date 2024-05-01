@@ -2,7 +2,7 @@ import ResumeListItem from './shared/ResumeListItem';
 import { projectsItems, projectsText } from '@/data/ResumeProjectsData';
 import type { IResumeListItem } from '@/types/components/ResumeListItem';
 
-const ResumeSideProjects = () => {
+const ResumeProjects = () => {
   return (
     <article className="resume-section-wrapper">
       <p className="resume-section-text">{projectsText}</p>
@@ -13,4 +13,4 @@ const ResumeSideProjects = () => {
   );
 };
 
-export default ResumeSideProjects;
+export default ResumeProjects;

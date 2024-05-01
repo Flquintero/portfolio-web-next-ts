@@ -26,6 +26,6 @@ export const projectsItems: IResumeListItem[] = [
     logo: 'citch-logo.png',
   },
 ];
-export const projectsText = `Side Projects for me have served two purposes. One, to grow as an engineer. The other, for my entrepreneurial spirit. 
+export const projectsText = `Side projects for me have served two purposes. One, to grow as an engineer. The other, for my entrepreneurial spirit. 
 If I see a problem out in the world I want to solve I will build something with a technology I want to try out.
 Projects have been built using Javascript Frameworks such as Next, React, Vue and Nuxt. Since 2020 I have been doing all with TypeScript. You can learn more about them in my Github profile.`;
