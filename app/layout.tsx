@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { Oswald } from 'next/font/google';
 import Footer from '@/components/layout/Footer';
 import './globals.css';
-import LogRocket from '@/plugins/LogRocket';
 const oswald = Oswald({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -21,7 +20,6 @@ export default function RootLayout({
       <body className={oswald.className}>
         {children}
         <Footer />
-        <LogRocket />
       </body>
     </html>
   );
