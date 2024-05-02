@@ -3,9 +3,9 @@ import ResumeContent from '@/components/pages/resume/ResumeContent';
 
 export default function Home() {
   return (
-    <main>
+    <section>
       <ResumeTitle />
       <ResumeContent />
-    </main>
+    </section>
   );
 }
