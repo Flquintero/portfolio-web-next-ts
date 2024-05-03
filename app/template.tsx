@@ -5,7 +5,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
   import('@/plugins/LogRocket');
   return (
     <main>
-      <GoogleTagManager gtmId="GTM-P7DLMF2Q" />
+      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID as string} />
       {children}
     </main>
   );
