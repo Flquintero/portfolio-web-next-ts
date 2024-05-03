@@ -7,7 +7,7 @@ const ResumeTitle = () => {
       <article>
         <Image
           src="/profile-picture.png"
-          className="mx-auto mb-4 rounded-full border border-slate-50 shadow"
+          className="duration-75 mx-auto mb-4 rounded-full border-2 border-slate-900 shadow"
           width="175"
           height="175"
           alt="The photo is of the author of the page Francisco Quintero"
