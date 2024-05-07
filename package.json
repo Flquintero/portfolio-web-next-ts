@@ -10,11 +10,8 @@
   },
   "dependencies": {
     "@next/third-parties": "^14.2.3",
-<<<<<<< Updated upstream
-=======
     "@tanstack/react-query": "^5.35.1",
     "logrocket": "^8.1.0",
->>>>>>> Stashed changes
     "next": "14.2.2",
     "react": "^18",
     "react-dom": "^18"
