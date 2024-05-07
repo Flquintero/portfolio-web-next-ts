@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@next/third-parties": "^14.2.3",
+    "logrocket": "^8.1.0",
     "next": "14.2.2",
     "react": "^18",
     "react-dom": "^18"
