@@ -2,10 +2,16 @@ import type { IResumeListItem } from '@/types/components/ResumeListItem';
 
 export const experienceItems: IResumeListItem[] = [
   {
+    title: 'SENIOR UI ENGINEER',
+    subtitle: 'SpecterOps',
+    date: 'Jul 2024 - Present',
+    logo: 'specterops-logo.jpeg', // To do: create S3 bucket and host these
+  },
+  {
     title: 'SENIOR FRONTEND DEVELOPER',
     subtitle: 'Sion',
-    date: 'Jan 2023 - Present',
-    logo: 'sion-logo.jpeg', // To do: create S3 bucket and host these
+    date: 'Jan 2023 - Jul 2024',
+    logo: 'sion-logo.jpeg',
   },
   {
     title: 'SENIOR FRONTEND DEVELOPER',
