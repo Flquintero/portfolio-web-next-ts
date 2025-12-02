@@ -4,7 +4,7 @@ export const consultingItems: IResumeListItem[] = [
   {
     title: 'Mentor - Web Development',
     subtitle: 'CareerFoundry',
-    date: '2024 - Present',
+    date: '2024 - 2024',
     logo: 'careerfoundry-logo.jpeg', // To do: create S3 bucket and host these
   },
   {

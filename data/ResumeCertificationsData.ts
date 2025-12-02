@@ -2,6 +2,12 @@ import type { IResumeListItem } from '@/types/components/ResumeListItem';
 
 export const certificationsItems: IResumeListItem[] = [
   {
+    title: 'Certified Senior React Developer',
+    subtitle: 'Certificates.dev',
+    date: '2025',
+    logo: 'react_js_certification_logo.jpeg', // To do: create S3 bucket and host these
+  },
+  {
     title: 'Project Management Professional (PMP)®',
     subtitle: 'Project Management Institute',
     date: '2022',

@@ -2,6 +2,12 @@ import type { IResumeListItem } from '@/types/components/ResumeListItem';
 
 export const projectsItems: IResumeListItem[] = [
   {
+    title: 'Highlighting One Startup a Day with AI',
+    subtitle: 'StartupDose.com',
+    date: '2025 - Present',
+    logo: 'startup_dose_logo.jpeg', // To do: create S3 bucket and host these
+  },
+  {
     title: 'My Portfolio Site',
     subtitle: 'FranciscoQuinteroAbbo.com',
     date: '2024 - Present',
@@ -10,7 +16,7 @@ export const projectsItems: IResumeListItem[] = [
   {
     title: 'Website to ask Expert Social Media Accounts a Question',
     subtitle: 'SocialWisdom.co',
-    date: '2023 - Present',
+    date: '2023 - 2024',
     logo: 'social-wisdom-logo.png',
   },
   {
